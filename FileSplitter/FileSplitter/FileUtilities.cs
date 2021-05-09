@@ -6,12 +6,29 @@ using System.Linq;
 
 namespace FileSplitter
 {
-    static class FileUtilities
+    public static class FileUtilities
     {
         public static bool IsFile(string path) => File.Exists(path);
         public static bool IsDirectory(string path) => Directory.Exists(path);
 
-        public static long GetFileSize(string path) => File.ReadAllBytes(path).LongLength;
+        public static byte[] GetFileBytes(string path) => File.ReadAllBytes(path);
+
+        public static long GetFileSize(string path) => GetFileBytes(path).LongLength;
+
+        public static long GetDirectorySize(string path)
+        {
+            if (!IsDirectory(path)) throw new ArgumentException("Path is not a directory");
+            long totalSize = 0;
+            foreach (string filePath in Directory.GetFiles(path))
+            {
+                totalSize += GetFileSize(filePath);
+            }
+            foreach (string dirPath in Directory.GetDirectories(path))
+            {
+                totalSize += GetDirectorySize(dirPath);
+            }
+            return totalSize;
+        }
 
         public static void MoveFile(string srcPath, string dstPath) => File.Move(srcPath, dstPath);
 
