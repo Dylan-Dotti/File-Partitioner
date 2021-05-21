@@ -1,0 +1,6 @@
+C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter.Tests\bin\Debug\FileSplitter.Tests.dll
+C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter.Tests\bin\Debug\FileSplitter.Tests.pdb
+C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter.Tests\obj\Debug\FileSplitter.Tests.csprojAssemblyReference.cache
+C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter.Tests\obj\Debug\FileSplitter.Tests.csproj.CoreCompileInputs.cache
+C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter.Tests\obj\Debug\FileSplitter.Tests.dll
+C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter.Tests\obj\Debug\FileSplitter.Tests.pdb

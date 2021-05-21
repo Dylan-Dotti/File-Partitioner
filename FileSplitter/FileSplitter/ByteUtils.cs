@@ -2,11 +2,11 @@
 
 namespace FileSplitter
 {
-    public static class ByteUtilities
+    public static class ByteUtils
     {
         public static double ToKb(long byteCount)
         {
-            return byteCount / 1024;
+            return byteCount / 1024d;
         }
 
         public static double ToMb(long byteCount)
