@@ -1,0 +1,5 @@
+C:\Users\h4dottd\Documents\GitHub\File-Partitioner\FilePartitioner\FileSplitter.Tests\bin\Debug\FilePartitioner.Tests.dll
+C:\Users\h4dottd\Documents\GitHub\File-Partitioner\FilePartitioner\FileSplitter.Tests\bin\Debug\FilePartitioner.Tests.pdb
+C:\Users\h4dottd\Documents\GitHub\File-Partitioner\FilePartitioner\FileSplitter.Tests\obj\Debug\FilePartitioner.Tests.csproj.CoreCompileInputs.cache
+C:\Users\h4dottd\Documents\GitHub\File-Partitioner\FilePartitioner\FileSplitter.Tests\obj\Debug\FilePartitioner.Tests.dll
+C:\Users\h4dottd\Documents\GitHub\File-Partitioner\FilePartitioner\FileSplitter.Tests\obj\Debug\FilePartitioner.Tests.pdb
