@@ -72,11 +72,23 @@
     <Compile Include="DictUtils.cs" />
     <Compile Include="DotNetZipOperation.cs" />
     <Compile Include="FileUtils.cs" />
+    <Compile Include="GUI\CustomNumericUpDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\CustomNumericUpDown.Designer.cs">
+      <DependentUpon>CustomNumericUpDown.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainForm2.Designer.cs">
+      <DependentUpon>MainForm2.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\PartitionOperationForm.cs">
       <SubType>Form</SubType>
@@ -84,6 +96,13 @@
     <Compile Include="GUI\PartitionOperationForm.Designer.cs">
       <DependentUpon>PartitionOperationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\PartitionStrategyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\PartitionStrategyControl.Designer.cs">
+      <DependentUpon>PartitionStrategyControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\StrategySelection.cs" />
     <Compile Include="ICancelableOperation.cs" />
     <Compile Include="Partition.cs" />
     <Compile Include="PartitionExecutor.cs" />
@@ -92,11 +111,20 @@
     <Compile Include="PartitionStrategy.cs" />
     <Compile Include="GreedyPartitionStrategy.cs" />
     <Compile Include="ZipOperation.cs" />
+    <EmbeddedResource Include="GUI\CustomNumericUpDown.resx">
+      <DependentUpon>CustomNumericUpDown.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainForm2.resx">
+      <DependentUpon>MainForm2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\PartitionOperationForm.resx">
       <DependentUpon>PartitionOperationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PartitionStrategyControl.resx">
+      <DependentUpon>PartitionStrategyControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

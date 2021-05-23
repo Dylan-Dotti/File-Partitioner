@@ -11,7 +11,6 @@ namespace FileSplitter.GUI
         public MainForm()
         {
             InitializeComponent();
-            strategyComboBox.SelectedIndex = 0;
         }
 
         private void executeButton_Click(object sender, EventArgs e)

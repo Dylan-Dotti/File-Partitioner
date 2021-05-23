@@ -22,3 +22,6 @@ C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter\bin\De
 C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter\bin\Debug\Microsoft.WindowsAPICodePack.xml
 C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
 C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter\obj\Debug\FileSplitter.GUI.PartitionStrategyControl.resources
+C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter\obj\Debug\FileSplitter.GUI.MainForm2.resources
+C:\Users\h4dottd\Documents\GitHub\File-Splitter\FileSplitter\FileSplitter\obj\Debug\FileSplitter.GUI.CustomNumericUpDown.resources
