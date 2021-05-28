@@ -36,18 +36,24 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.partitionStrategyControl1 = new FilePartitioner.GUI.PartitionStrategyControl();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.zipDstButton = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -62,13 +68,13 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(656, 662);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(567, 546);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button1.Location = new System.Drawing.Point(383, 604);
+            this.button1.Location = new System.Drawing.Point(294, 488);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 3, 25, 15);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(248, 43);
@@ -85,16 +91,16 @@
             this.tabControl1.Margin = new System.Windows.Forms.Padding(15);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(626, 571);
+            this.tabControl1.Size = new System.Drawing.Size(537, 455);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.tableLayoutPanel2);
-            this.tabPage1.Location = new System.Drawing.Point(4, 34);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(618, 533);
+            this.tabPage1.Size = new System.Drawing.Size(529, 426);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Partition";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -113,7 +119,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(612, 527);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(523, 420);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // groupBox2
@@ -122,18 +128,19 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(3, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(606, 204);
+            this.groupBox2.Size = new System.Drawing.Size(517, 150);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Source";
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.tableLayoutPanel5);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(3, 213);
+            this.groupBox1.Location = new System.Drawing.Point(3, 159);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(606, 204);
+            this.groupBox1.Size = new System.Drawing.Size(517, 150);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Destination";
@@ -143,22 +150,12 @@
             this.groupBox3.Controls.Add(this.tableLayoutPanel3);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(3, 423);
+            this.groupBox3.Location = new System.Drawing.Point(3, 315);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(606, 101);
+            this.groupBox3.Size = new System.Drawing.Size(517, 102);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Settings";
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 34);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(618, 533);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Reassemble";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
             // 
@@ -168,11 +165,11 @@
             this.tableLayoutPanel3.Controls.Add(this.partitionStrategyControl1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 24);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 17);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(600, 74);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(511, 82);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // tableLayoutPanel4
@@ -182,12 +179,12 @@
             this.tableLayoutPanel4.ColumnCount = 1;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(381, 25);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(333, 33);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(137, 24);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(99, 16);
             this.tableLayoutPanel4.TabIndex = 1;
             // 
             // label1
@@ -196,26 +193,90 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 24);
+            this.label1.Size = new System.Drawing.Size(93, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Partition Count";
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(618, 542);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Reassemble";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
             // partitionStrategyControl1
             // 
+            this.partitionStrategyControl1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.partitionStrategyControl1.AutoSize = true;
-            this.partitionStrategyControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.partitionStrategyControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.partitionStrategyControl1.Location = new System.Drawing.Point(4, 4);
+            this.partitionStrategyControl1.Location = new System.Drawing.Point(4, 14);
             this.partitionStrategyControl1.Margin = new System.Windows.Forms.Padding(4);
             this.partitionStrategyControl1.Name = "partitionStrategyControl1";
-            this.partitionStrategyControl1.Size = new System.Drawing.Size(292, 66);
+            this.partitionStrategyControl1.Size = new System.Drawing.Size(247, 53);
             this.partitionStrategyControl1.TabIndex = 0;
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.ColumnCount = 2;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.Controls.Add(this.button2, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.zipDstButton, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label2, 0, 1);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 17);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 2;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(511, 130);
+            this.tableLayoutPanel5.TabIndex = 0;
+            // 
+            // zipDstButton
+            // 
+            this.zipDstButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.zipDstButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zipDstButton.Location = new System.Drawing.Point(108, 16);
+            this.zipDstButton.Margin = new System.Windows.Forms.Padding(3, 3, 5, 3);
+            this.zipDstButton.Name = "zipDstButton";
+            this.zipDstButton.Size = new System.Drawing.Size(142, 33);
+            this.zipDstButton.TabIndex = 0;
+            this.zipDstButton.Text = "Select .ZIP";
+            this.zipDstButton.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(260, 16);
+            this.button2.Margin = new System.Windows.Forms.Padding(5, 3, 3, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(142, 33);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Select folder";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoEllipsis = true;
+            this.label2.AutoSize = true;
+            this.tableLayoutPanel5.SetColumnSpan(this.label2, 2);
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Location = new System.Drawing.Point(3, 65);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(505, 65);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "No destination selected";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainForm2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(656, 662);
+            this.ClientSize = new System.Drawing.Size(567, 546);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -225,11 +286,14 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -249,5 +313,9 @@
         private PartitionStrategyControl partitionStrategyControl1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button zipDstButton;
+        private System.Windows.Forms.Label label2;
     }
 }
