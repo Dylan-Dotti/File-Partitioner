@@ -15,10 +15,10 @@ namespace FilePartitioner.GUI
 
         private void executeButton_Click(object sender, EventArgs e)
         {
-            string srcPath = @"C:\Users\h4dottd\Desktop\39760.zip";
-            string dstDir = @"C:\Users\h4dottd\Desktop\FileSplitterDst";
+            string srcPath = @"C:\Users\h4dottd\Desktop\42063.zip";
+            string dstDir = @"C:\Users\h4dottd\Desktop\42063\";
             PartitionExecutor executor = new PartitionExecutor(
-                srcPath, dstDir, new GreedyPartitionStrategy(5));
+                srcPath, dstDir, new GreedyPartitionStrategy(3));
             new PartitionOperationForm(executor).ShowDialog();
         }
 
